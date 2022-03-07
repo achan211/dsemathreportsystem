@@ -4,19 +4,12 @@ header ul {
     padding: 0;
     overflow: hidden;
   }
-
-footer ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
   
-    li {
+    header li {
         float: left;
     }
   
-    li a {
+    header li a {
         display: block;
         color: black;
         text-align: center;
@@ -24,7 +17,31 @@ footer ul {
         text-decoration: none;
     }
   
-    li a:hover {
+    header li a:hover {
+        background-color: rgb(230, 230, 230);
+        color: black;
+    }
+
+footer ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    footer li {
+        float: left;
+    }
+  
+    footer li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 10px 16px;
+        text-decoration: none;
+    }
+  
+    footer li a:hover {
         background-color: rgb(230, 230, 230);
         color: black;
     }
