@@ -4,6 +4,13 @@ header ul {
     padding: 0;
     overflow: hidden;
   }
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
   
     li {
         float: left;
