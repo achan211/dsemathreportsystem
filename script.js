@@ -1,3 +1,3 @@
-function navBarToggle(){
-    navBar = document.getElementById("navbarNav");
+function Test(){
+    alert("Test is successful!");
 }
