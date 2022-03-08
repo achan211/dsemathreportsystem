@@ -17,8 +17,9 @@
     </head>
     <body>
         <header class="bg-light bg-primary py-2">
-            <div class="text-center container">
-                <h5 class="display-6">HKDSE Mathematics (Compulsory Part) Question by-topic Report System</h5>
+            <div class="container">
+                <h5 class="display-6 text-center">HKDSE Mathematics (Compulsory Part) Question by-topic Report System</h5>
+                <p class="m-1 text-end"><code>Version 0.1.0.</code></p>
             </div>
             <div class="container">    
                 <ul class="bg-light bg-primary">
@@ -31,21 +32,15 @@
         <main class="m-4">
             <div class="container" id="byYear">
                 <h6 class="display-6">Search by Year</h6>
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                      Select a Year
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item">2021</a></li>
-                      <li><a class="dropdown-item">2020</a></li>
-                      <li><a class="dropdown-item">2019</a></li>
-                      <li><a class="dropdown-item">2018</a></li>
-                      <li><a class="dropdown-item">2017</a></li>
-                      <li><a class="dropdown-item">2016</a></li>
-                      <li><a class="dropdown-item">2015</a></li>
-                      <li><a class="dropdown-item">2014</a></li>
-                    </ul>
-                  </div>
+                <select class="form-select form-select-lg mb-3" id="year" onchange="byYear()">
+                    <option selected disabled>Select a Year</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                </select>
                 <p class="lead">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula ultricies nisl non pretium. Nam quis hendrerit lorem. Sed egestas commodo hendrerit. Maecenas semper dui turpis, ac facilisis nisl rhoncus et. Vivamus id ex quis lacus eleifend euismod. Praesent porttitor varius bibendum. Suspendisse tellus justo, tempus nec accumsan in, bibendum ac metus. Suspendisse sit amet facilisis lorem, ac hendrerit enim. Ut tempor congue quam, eget viverra sem tempor vel. Duis ac urna felis. Nulla lobortis mi in ullamcorper luctus.
     
@@ -94,15 +89,9 @@
             </div>
             <div class="container">
                 <h6 class="display-6" id="about">About this Project</h6>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id eros congue elit placerat porta eget et nisl. Sed aliquet consectetur ante, vitae aliquet erat egestas sed. In tempor, felis ac molestie consequat, lorem est cursus urna, ut eleifend magna ipsum sed est. Suspendisse potenti. Sed felis justo, blandit ac ultrices eget, molestie non risus. Duis suscipit viverra tortor, et pretium sapien. Phasellus sapien nulla, ullamcorper sed ex non, lacinia pretium ex. Nullam fringilla cursus risus, pharetra pellentesque tellus dictum eget. Cras fringilla eros quam, et iaculis odio tempor pulvinar. Curabitur vel luctus augue. Ut auctor nisl non justo rhoncus, eget mattis velit efficitur. In sodales ipsum urna, ut efficitur felis scelerisque eu. Ut finibus mi quam, at egestas elit pretium at. Donec ac accumsan mauris, aliquet vestibulum est.
-
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in suscipit lectus, id ultricies massa. Praesent at tortor at est dictum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate sapien non tellus commodo, at sodales libero luctus. Integer congue sem non nisi rhoncus, vitae tincidunt est convallis. Etiam augue enim, porttitor id hendrerit at, posuere non mi. Aenean et nisl non nunc elementum scelerisque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer sit amet fermentum dolor. Sed gravida erat quis tellus tincidunt molestie.
-                    
-                    Etiam fringilla nibh vitae tellus scelerisque convallis. Vestibulum elementum non velit non consectetur. Suspendisse eu nunc eu nisl efficitur ullamcorper. Morbi quis congue ante. Integer vitae varius risus, quis dignissim dolor. Quisque quam leo, ultricies quis ultricies ut, ullamcorper vel velit. Donec ut felis non mi euismod tincidunt ut vitae nulla. Mauris ipsum tellus, dapibus at mi id, rhoncus maximus mi. Morbi gravida vitae mi et tempor. Vestibulum vel sapien augue. Nulla vulputate ut purus at pretium. Nullam ipsum nulla, convallis non semper at, pharetra in sapien. Pellentesque sollicitudin, justo nec porttitor tristique, turpis nisl cursus eros, vel blandit risus tortor sit amet tortor.
-                    
-                    Nam pharetra nulla eget eros vestibulum blandit. Vestibulum convallis nec leo nec dignissim. Praesent id ligula orci. Fusce elementum erat vel ante consequat venenatis sit amet ac turpis. Proin et erat viverra, pellentesque nisl id, facilisis purus. Sed vitae ornare tellus, quis vestibulum velit. Phasellus porttitor dapibus magna, at vulputate arcu bibendum sed. Suspendisse potenti. Suspendisse id nunc fermentum, blandit odio sed, tempus nisl. Vivamus ultrices dapibus pellentesque. Integer sollicitudin vitae libero ac bibendum.
-                    
-                    Nunc vitae velit facilisis, pellentesque enim sed, pellentesque nisi. Curabitur euismod nec arcu in ornare. Sed quam tellus, malesuada non tellus commodo, dapibus pellentesque tellus. Nam pulvinar nibh felis, a fermentum elit dapibus vel. Morbi suscipit dolor nec arcu interdum, et ultrices nisi molestie. Nunc luctus metus lectus, porta aliquet neque faucibus sit amet. Ut eu convallis felis, ac luctus enim.
+                <p class="lead">
+                    An on-going project created by Alvin. <br />
+                    This project is created using HTML, CSS & Javascripts. This system can generate HTML reports for inquriry regarding the questions and topics in the past HKDSE Mathematics (Compulsory Part) Examinations. 
                 </p>
                 <button onclick="Test()">Test Me!</button>
             </div>
