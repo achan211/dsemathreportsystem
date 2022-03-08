@@ -1,7 +1,7 @@
 var data = [
     {
         "year": "2021", 
-        "questions": ["Simplification", "Change of Subject", "Factorization"]
+        "questions": ["Simplification", "Change of Subject", "Factorization", "Inequality", "Simultaneous Linear Equations", "Percentages", "Coordinate Geometry", "Congruent & Similar Triangles", "Measures of Dispersions", "Variations + Transformation of Graphs", "Measures of Dispersions", "Factor Theorem", "Equation of Circle", "Volume & Surface Area", "Probability", "System of Inequalities", "Sequence", "3D Trigonometry", "Completing the Square + Four Centers of Triangle"]
     }, 
     {
         "year": "2020", 
