@@ -30,8 +30,12 @@ function generateYearReport(i){
     for (var x = 0; x < questions.length; x++){
         queNo = x + 1;
         let newQuestion = document.createElement("p");
-        newQuestion.className = "lead";
+        //newQuestion.className = "lead";
         newQuestion.innerHTML = "Question " + queNo + " is " + questions[x];
         document.querySelector("#yearResult").appendChild(newQuestion);
     }
+    endOfResult = document.createElement("p");
+    endOfResult.className = "text-center";
+    endOfResult.innerHTML = "--- End of Search Result ---"
+    document.querySelector("#yearResult").appendChild(endOfResult);
 }
