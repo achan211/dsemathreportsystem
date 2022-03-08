@@ -10,6 +10,34 @@ var data = [
     {
         "year": "2019", 
         "questions": ["Change of Subject", "Simplification", "Quadratic equations + Properties of Quadrilaterals", "Factorization", "Percentages", "Inequality", "Ratio + Simultaneous Linear Equations", "Pie Chart + Probability", "Volume & Surface Areas", "Variations", "Factor Theorem", "Stem-and-Leaf + Measures of Dispersions", "Properties of Circles", "Congruent & Similar Triangles + Properties of Quadrilaterals", "Permutations and Combinations", "Sum & Product of Roots + Sequences + Logarithms", "Coordinate Geometry + Locus", "3D Trigonometry", "Completing the Square + Transformations of Graphs + Properties of Circles"]
+    },
+    {
+        "year": "2018", 
+        "questions": ["Simplification", "Change of Subject", "Factorization"]
+    }, 
+    {
+        "year": "2017", 
+        "questions": ["q1", "q2"]
+    },
+    {
+        "year": "2016", 
+        "questions": ["Change of Subject", "Simplification", "Quadratic equations + Properties of Quadrilaterals", "Factorization", "Percentages", "Inequality", "Ratio + Simultaneous Linear Equations", "Pie Chart + Probability", "Volume & Surface Areas", "Variations", "Factor Theorem", "Stem-and-Leaf + Measures of Dispersions", "Properties of Circles", "Congruent & Similar Triangles + Properties of Quadrilaterals", "Permutations and Combinations", "Sum & Product of Roots + Sequences + Logarithms", "Coordinate Geometry + Locus", "3D Trigonometry", "Completing the Square + Transformations of Graphs + Properties of Circles"]
+    },
+    {
+        "year": "2015", 
+        "questions": ["Simplification", "Change of Subject", "Factorization"]
+    }, 
+    {
+        "year": "2014", 
+        "questions": ["q1", "q2"]
+    },
+    {
+        "year": "2013", 
+        "questions": ["Change of Subject", "Simplification", "Quadratic equations + Properties of Quadrilaterals", "Factorization", "Percentages", "Inequality", "Ratio + Simultaneous Linear Equations", "Pie Chart + Probability", "Volume & Surface Areas", "Variations", "Factor Theorem", "Stem-and-Leaf + Measures of Dispersions", "Properties of Circles", "Congruent & Similar Triangles + Properties of Quadrilaterals", "Permutations and Combinations", "Sum & Product of Roots + Sequences + Logarithms", "Coordinate Geometry + Locus", "3D Trigonometry", "Completing the Square + Transformations of Graphs + Properties of Circles"]
+    },
+    {
+        "year": "2012", 
+        "questions": ["Simplification", "Change of Subject", "Factorization"]
     }
 ]
 
