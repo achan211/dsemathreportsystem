@@ -4,6 +4,7 @@ This project is created using HTML, CSS & Javascripts. This system can generate 
 # Changelog
 ## Version 0.0.3.
 * Add past years options
+    * 2021 is completed
     * 2019 is completed
 
 ## Version 0.0.2.
