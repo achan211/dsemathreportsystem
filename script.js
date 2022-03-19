@@ -5,7 +5,7 @@ var data = [
     }, 
     {
         "year": "2020", 
-        "questions": ["q1", "q2"]
+        "questions": ["Laws of Indices", "Factorization", "Round off", "Ratio", "Percentages", "Inequality", "Quadratic Equation", "Trigonometry", "Measures of Dispersion", "Variation", "Stem-and-Leaf + Probability", "Volume and Surface Area", "Factor Theorem", "Equation of Circle + Locus", "Probability", "Sequence", "Completing the Square + Coordinate Geometry", "Congruent & Similar Triangles + Properties of Circle", "3D Trigonometry"]
     },
     {
         "year": "2019", 
