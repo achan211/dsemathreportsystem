@@ -55,12 +55,16 @@ function byYear(Year){
 
 function generateYearReport(i){
     questions = data[i].questions;
-    for (var x = 0; x < questions.length; x++){
-        queNo = x + 1;
-        let newQuestion = document.createElement("p");
-        //newQuestion.className = "lead";
-        newQuestion.innerHTML = "Question " + queNo + " is " + questions[x];
-        document.querySelector("#yearResult").appendChild(newQuestion);
+    if (questions.length == 0){
+        document.querySelector('#yearResult').innerHTML = "No record is found yet."
+    } else {
+        for (let x in questions){
+            queNo = x + 1;
+            let newQuestion = document.createElement("p");
+            //newQuestion.className = "lead";
+            newQuestion.innerHTML = "Question " + queNo + " is " + questions[x];
+            document.querySelector("#yearResult").appendChild(newQuestion);
+        }
     }
     endOfResult = document.createElement("p");
     endOfResult.className = "text-center";
